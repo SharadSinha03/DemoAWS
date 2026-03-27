@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Goodbye') {
             steps {
-                echo 'Goodbye.'
+                echo 'Goodbye. World!'
             }
         }
     }
